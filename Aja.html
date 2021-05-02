@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="samp.js"></script>
+<link rel="stylesheet" href="sample.css">
+<link rel="Stylesheet" type="text/css" href="file:///C:/Users/charan/Desktop/css/css/all.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+<header>
+<li><span style="font-size:30px;cursor:pointer;margin-left:3px;" onclick="openNav()"><i class="fas fa-align-left"></i></span></li>
+<li><h2 id="simple">SIMPLE CALCULATOR</h2></li>
+<li><i class="fas fa-user-circle" style="margin-left:15px;"></i></li>
+</header>
+<div class="w">
+ <table border="5px red">  
+  <tr>
+   <td colspan="3"><input id="box" type="text"></td>
+   <td><button type="button" onclick="ac()">AC</button></td>
+  </tr> 
+ 
+  <tr>
+  
+   <td><button type="button" onclick="show('7')" value="7">7</button></td>
+   <td><button type="button" onclick="show('8')" value="8">8</button></td>
+   <td><button type="button" onclick="show('9')" value="9">9</button></td>
+   <td><button type="button" onclick="show('/')" value="/">/</button></td>
+  </tr>
+
+ <tr>
+   <td><button type="button" onclick="show('4')" value="4">4</button></td>
+   <td><button type="button" onclick="show('5')" value="5">5</button></td>
+   <td><button type="button" onclick="show('6')" value="6">6</button></td>
+   <td><button type="button" onclick="show('*')" value="*">*</button></td>
+  </tr> 
+   
+ <tr>
+   <td><button type="button" onclick="show('1')" value="1">1</button></td>
+   <td><button type="button" onclick="show('2')" value="2">2</button></td>
+   <td><button type="button" onclick="show('3')" value="3">3</button></td>
+   <td><button type="button" onclick="show('-')" value="-">-</button></td>
+  </tr>
+  
+  <tr>
+   <td><button type="button" onclick="show('.')" value=".">.</button></td>
+   <td><button type="button" onclick="show('0')" value="0">0</button></td>
+   <td><button type="button" onclick="show('+')">+</button></td>
+   <td><button type="button" onclick="display()" value="=">=</button></td>
+  </tr>
+  </table>
+  </div>
+ <footer>
+ <div style="color:white;" class="foot">
+  <h2>Footer Content</h2>
+  <hr>
+  
+  <h4>Links</h4>
+  <hr>
+  <div class="links">
+  <li><i class="fab fa-twitter" style="margin-left:50px"></i></li>
+  <li><i class="fab fa-facebook" style="margin-left:50px"></i></li>
+  <li><i class="fab fa-instagram" style="margin-left:50px"></i></li>
+  <li><i class="fab fa-whatsapp" style="margin-left:50px"></i></li><br>
+  <h6 style="margin-left:40px">Twitter</h6>
+  <h6 style="margin-left:40px">Facebook</h6>
+  <h6 style="margin-left:20px">Instagram</h6>
+  <h6 style="margin-left:20px">Whatsapp</h6><br>
+  <p style="background-color:grey;overflow:auto;margin-bottom:-15px;opacity:0.6;color:black;">charan</p>
+  </div>
+  </div>
+    
+	</footer>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "180px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html> 

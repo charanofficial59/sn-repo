@@ -1,0 +1,134 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px
+  
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: green;
+}
+.sidenav .closebtn {
+  position:absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.w{
+   margin:12% 12px 12px 30%;
+        
+   }
+ table{
+  height:305px;
+  width:30%;
+  border-radius:15px;
+  background-color:#ffffcc;
+}  
+button{
+   background-color:#cccc00;
+  width:60px;
+  height:50px;
+  font-size:30px;
+  margin-left:6px;
+  border-radius:10px; 
+ }
+input{
+  width:250px;
+  height:50px;
+  font-size:25px;
+} 
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 10px;}
+}
+header {
+  background-color:red;
+  width:100%;
+  }
+  
+@media only screen and (max-width:700px) {
+ 
+  .w{
+     margin: 70px 12px 2px 40px;
+  }
+  table {
+	  
+	 width:70px;
+	 height:70%;
+	 border-radius:5px;
+	 border-width:2px;
+   }
+   tr {
+	  border:#ffcc00;
+   }	  
+  input{
+  width:140px;
+  height:35px;  
+ 
+   } 
+   button {
+	   border-radius:7px;
+	   width:30px;
+	   height:25px;
+	   font-size:12px;
+	   margin:0px 0px 0px 5px;
+	   text-align:center;
+   }
+ header{
+	  width:100%;
+      background-color:grey;
+	  width:105%;
+	  margin-top:-6px;
+	 margin-left:-8px;
+ }
+ li {
+	 display:inline-block;
+	 list-style-type:none;
+ }
+ #simple{
+	 color:#cc6600;
+	 font-size:21px;
+ }
+ i {
+	 font-size:24px;
+ }
+ .sidenav{
+	  font-size:15px;
+      
+ }
+ #bars{
+	 margin-right:-9px;
+ }
+ footer{
+	 margin:76px 29px 25px 25px;
+	 margin-left:-9px;
+	  background-color:black;
+	  position:fixed;
+	  width:100%;
+ }
+h6 {
+	display:inline-block;
+}
